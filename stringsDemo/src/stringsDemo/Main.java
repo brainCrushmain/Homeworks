@@ -20,6 +20,8 @@ public class Main {
 		char[] karakterler = new char[5];
 		mesaj.getChars(0, 5, karakterler, 0);
 		System.out.println(karakterler);
+		System.out.println(mesaj.indexOf("a"));
+		System.out.println(mesaj2.lastIndexOf("y"));
 	}
 
 }
